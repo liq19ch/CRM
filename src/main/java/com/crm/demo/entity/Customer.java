@@ -17,22 +17,25 @@ public class Customer {
 	private int id;
 	@Column(name = "first_name")
 	private String firstName;
-	@Column(name = "las_nName")
+	@Column(name = "last_name")
 	private String lastName;
 	@Column(name = "email")
 	private String email;
 	@Column(name = "address")
 	private String address;
+	@Column(name = "phone")
+	private String phone;
 
 	public Customer() {
 
 	}
 
-	public Customer(String firstName, String lastName, String email, String address) {
+	public Customer(String firstName, String lastName, String email, String address, String phone) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
 		this.address = address;
+		this.phone = phone;
 	}
 
 	public int getId() {
@@ -75,4 +78,16 @@ public class Customer {
 		this.address = address;
 	}
 
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+
+
+
+	
 }
