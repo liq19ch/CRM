@@ -12,4 +12,4 @@ This is a Maven project, use Spring boot framework to work with thymeleaf. Also 
 * Bootstrap
 
 ## Usage
-![PostMan findall](https://raw.github.com/liq19ch/repositpry/master/CRM/img-folder/postman-findall.jpg)
+![PostMan findall](https://github.com/liq19ch/CRM/blob/master/img-folder/postman-findall.jpg)
