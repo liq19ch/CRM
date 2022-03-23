@@ -24,7 +24,7 @@ public class CustomerServiceImpl implements CustomerService {
 	@Transactional
 	public List<Customer> getCustomers() {
 
-		return customerRepository.findAll();
+		return customerRepository.findAllByOrderByLastNameAsc();
 	}
 
 	@Override
